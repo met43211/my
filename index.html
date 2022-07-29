@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Сайт Визитка</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width,inital-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="header">
+                <img src="css/img/logo.png">
+                <div class="headermain">
+                    <a href="#s2">Услуги</a>
+                    <a href="#s3">О себе</a>
+                    <a href="#s4">Портфолио</a>
+                    <a href="#s5">Отзывы</a>
+                    <a href="#s6">Контакты</a>
+                </div>
+                <button data-modal="order">Заказать</button>
+                <div onmousedown="burgeractive()" class="burger"id="burger0"></div>
+            </header>
+        </div>
+        <div class="wrapper">
+            <div class="s1">
+                <div class="s1__left">
+                    <p class="s1__left-yellow" id="#s1">Самое время познакомиться.</p>
+                    <p class="s1__left-big">Привет, меня зовут</br>Мотя!</p>
+                    <p class="s1__left-main">Да, я кот, но наличие лапок мне не мешает быть</br>
+                        хорошим веб-дизайнером. Я ем только дорогой корм,</br>
+                        поэтому я очень активный и могу выполнить любую</br>
+                        задачу в кратчайшие сроки.</p>
+                    <p>Примеры моих работ вы можете посмотреть <a href="#s4">ниже</a>.</p>
+                </div>
+                <div class="s1__right">
+                    <img src="css/img/1.png">
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="s2" id="s2">
+                <div class="s2__title">
+                    <p class="s2__title-big" id="#s2">Закажи у меня дизайн для своего сайта</p>
+                    <p>Все мои мои работы занимают от одного до пяти дней.</br>
+                        Правки включены в изначальную стоимость.</p>
+                </div>
+                <div class="s2__service">
+                    <div class="s2__service-layout">
+                        <img src="css/img/2.png">
+                        <p>Коддинг</p>
+                    </div>
+                    <div class="s2__service-model">
+                        <img src="css/img/3.png">
+                        <p>Дизайн</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper" id="s3">
+            <div class="s3">
+                <div class="s3__info" id="fig">
+                    <p class="s3__info-big"><img src="css/img/f1.png">Figma</p>
+                    <p>онлайн-сервис для разработки интерфейсов и прототипирования 
+                        с возможностью организации совместной работы в режиме 
+                        реального времени.<p>
+                    <button onmousedown="nofig()">Назад</button>
+                </div>
+                <div class="s3__info" id="html">
+                    <p class="s3__info-big"><img src="css/img/h1.png">Веб-разработка</p>
+                    <p>роцесс создания веб-сайта или веб-приложения.
+                        Основными этапами процесса являются веб-дизайн,
+                        вёрстка страниц, программирование на стороне
+                        клиента и сервера, а также конфигурирование веб-сервера<p>
+                    <button onmousedown="nohtml()">Назад</button>
+                </div>
+                <div class="s3__info" id="ps">
+                    <p class="s3__info-big"><img src="css/img/ps1.png">Adobe Photoshop</p>
+                    <p>Многофункциональный графический редактор. Продукт является лидером рынка в области коммерческих
+                    средств редактирования растровых изображений и наиболее известной
+                    программой разработчика.<p>
+                    <button onmousedown="nops()">Назад</button>
+                </div>
+                <div class="s3__info" id="phy">
+                    <p class="s3__info-big"><img src="css/img/p1.png">Phyton</p>
+                    <p>Высокоуровневый язык программирования общего назначения с
+                        динамической строгой типизацией и автоматическим 
+                        управлением памятью, ориентированный на повышение 
+                        производительности разработчика, читаемости кода и 
+                        его качества, а также на обеспечение переносимости 
+                        написанных на нём программ.<p>
+                    <button onmousedown="nophy()">Назад</button>
+                </div>
+                <div class="s3__info" id="blen">
+                    <p class="s3__info-big"><img src="css/img/b1.png">Blender</p>
+                    <p>Профессиональное свободное и открытое программное
+                        обеспечение для создания трёхмерной компьютерной
+                        графики, включающее в себя средства моделирования,
+                        скульптинга, анимации, симуляции, рендеринга,
+                        постобработки и монтажа видео со звуком,
+                         а также создания 2D-анимаций.<p>
+                    <button onmousedown="noblen()">Назад</button>
+                </div>
+                <div class="s3__info" id="vegas">
+                    <p class="s3__info-big"><img src="css/img/v1.png">Sony Vegas</p>
+                    <p>Cемейство профессиональных программ для
+                        многодорожечной записи, редактирования
+                        и монтажа видео- и аудиопотоков от компаний
+                        MAGIX и Sony<p>
+                    <button onmousedown="novegas()">Назад</button>
+                </div>
+                <div class="s3__left" id="s3__left">
+                    <div class="s3__left-icon" onmousedown="fig()"><div class="s3__left-icon0"><img src="css/img/figma.png"></div></div>
+                    <div class="s3__left-icon" onmousedown="html()"><div class="s3__left-icon0"><img src="css/img/html.png"></div></div>
+                    <div class="s3__left-icon" onmousedown="ps()"><div class="s3__left-icon0"><img src="css/img/ps.png"></div></div>
+                    <div class="s3__left-icon" onmousedown="phy()"><div class="s3__left-icon0"><img src="css/img/phyton.png"></div></div>
+                    <div class="s3__left-icon" onmousedown="blen()"><div class="s3__left-icon0"><img src="css/img/blender.png"></div></div>
+                    <div class="s3__left-icon" onmousedown="vegas()"><div class="s3__left-icon0"><img src="css/img/vegas.png"></div></div>
+                </div>
+                <div class="s3__right">
+                    <p class="s3__right-big">Мои компетенции</p>
+                    <p class="s3__right-main">Я долго тренировался пользоваться мышкой и</br>
+                        клавиатурой лапками, и в конечном счете это дало</br>
+                        свои плоды Я даже смог освоить несколько</br>
+                        актуальных приложений для front end разработчиков</br>
+                        и дизайнеров.</p>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="s4"  id="s4">
+                <div class="s4__top">
+                    <p class="s4__top-big">Тут представлены примеры моих работ</p>
+                    <p>Глянь на мое портфолио и убедись, что котик может стать неплохим разработчиком.</p>
+                </div>
+                <div class="s4__bottom">
+                    <div class="slider">
+                        <div><img src="css/img/пример1.png"></div>
+                        <div><img src="css/img/пример2.png"></div>
+                        <div><img src="css/img/пример3.png"></div>
+                        <div><img src="css/img/пример4.png"></div>
+                        <div><img src="css/img/пример5.png"></div>
+                        <div><img src="css/img/пример6.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="s5" id="s5">
+                <div class="s5-left">
+                    <p class="s5-left__big">Отзывы</p>
+                    <p class="s5-left__text">
+                        Если вы довольны или возмущены моей работой,</br>
+                        то можете оставить мне отзыв в группе ВКонтакте.</br>
+                        Как видите отрицательных отзываов пока нет!</p>
+                    <p class="s5-left__text text-bottom">Ссылки на мои соцсети ты можешь увидеть <a href="#s6">ниже</a>.</p>
+                </div>
+                <div class="s5-right">
+                    <div class="tabs">
+                        <div class="tabs__nav tabs-nav">
+                            <button class="tabs-nav__item is-active" data-tab-name="tab-1">Отзыв №1</button>
+                            <button class="tabs-nav__item" data-tab-name="tab-2">Отзыв №2</button>
+                            <button class="tabs-nav__item" data-tab-name="tab-3">Отзыв №3</button>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tab is-active tab-1">
+                                <p class="s5-bigger">Павел</p>
+                                <p class="s5-left__text">
+                                    Сделали ну очень быстро и на удивление качественно. Рекомендую!
+                                </p>
+                            </div>
+                            <div class="tab tab-2">
+                                <p class="s5-bigger">Инна</p>
+                                <p class="s5-left__text">
+                                    Плакат на день рождения просто бомба! Мотя подошел к решению задачи с креативом и юмором. Всем советую.
+                                </p>
+                            </div>
+                            <div class="tab tab-3">
+                                <p class="s5-bigger">Глеб</p>
+                                <p class="s5-left__text">
+                                    Заказал тут сайт для своего бизнеса, всем доволен. Сделали быстро и качественно.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-main" id="s6">
+                <div class="footer-left">
+                    <img src="css/img/logo.png">
+                    <div class="footer-icons">
+                        <div class="footer-icon"><div class="footer-icon0"><img src="css/img/telegram.png"></div></div>
+                        <div class="footer-icon"><div class="footer-icon0"><img src="css/img/vk.png"></div></div>
+                        <div class="footer-icon"><div class="footer-icon0"><img src="css/img/twitter.png"></div></div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-right-left">
+                        <p class="footer-big">Контакты</p>
+                        <p class="footer-text">+7(985) 010 72 79</p>
+                        <p class="footer-text">m02062003@gmail.com</p>
+                    </div>
+                    <div class="footer-right-right">
+                        <p class="footer-big">Навигация</p>
+                        <p class="footer-text"><a href="#s2">Услуги</a></p>
+                        <p class="footer-text"><a href="#s3">О себе</a></p>
+                        <p class="footer-text"><a href="#s4">Портфолио</a></p>
+                        <p class="footer-text"><a href="#s5">Отзывы</a></p>
+                        <p class="footer-text"><a href="#s6">Контакты</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="overlay">
+            <div class="x modal__close">&times;</div>
+            <div class="close modal__close"></div>
+            <div class="modal" id="order">
+                <p class="modal-big">Заполните форму заявки</p>
+                <p class="modal-text">и я свяжусь с вами по почте</p>
+                <input class="nolast"required type="text" name="name" placeholder="Имя"></input>
+                <input class="nolast" required type="email" name="email" placeholder="Email"></input>
+                <input class="last" required type="text" name="order" placeholder="Описание"></input>
+                <button class="button modal__close">Заказать</button>
+            </div>
+        </div>
+        <div id=overlay1>
+        </div>
+        <div class="burger-menu" id="burger">
+            <div class="burgermain">
+                <a href="#s2">Услуги</a>
+                <a href="#s3">О себе</a>
+                <a href="#s4">Портфолио</a>
+                <a href="#s5">Отзывы</a>
+                <a href="#s6">Контакты</a>
+            </div>
+            <button data-modal="order">Заказать</button>
+        </div>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/slider.js" ></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
